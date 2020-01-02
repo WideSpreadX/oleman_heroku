@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <title>To Do:</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./assets/style/style.css" />
+  </head>
+
+  <body>
+    <h1>To Do:</h1>
+    <div id="user-input">
+      <p>Need to do</p>
+      <input type="text" id="client" />
+      <p>Urgency</p>
+      <input type="text" id="title" />
+      <br />
+      <p>Note</p>
+      <textarea id="note"></textarea>
+      <div id="buttons">
+        <div id="action-button">
+          <button id="make-new">Submit</button>
+        </div>
+        <button id="clear-all">Delete All To Dos</button>
+      </div>
+    </div>
+
+    <div class="results-card">
+      <div id="results"></div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
